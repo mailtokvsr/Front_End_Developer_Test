@@ -5,7 +5,7 @@
 
 1). Installation requires node.js on your computer
 
-2). Clone the repository from link: 
+2). Clone the repository from link: https://github.com/mailtokvsr/Front_End_Developer_Test
 
 3). Open Terminal and go to project folder
 
