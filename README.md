@@ -2,26 +2,41 @@
 # Front-end Developer Test
 
 # Installation
+
 1). Installation requires node.js on your computer
+
 2). Clone the repository from link: 
+
 3). Open Terminal and go to project folder
+
 4). Give npm install
 
 # Launching the application
+
 1). Open Terminal and go to project folder
+
 2). Enter "node server.js" in the terminal to start the Server
+
 3). Open Browser and enter url: http://localhost:8888/demo
 
 # Users
 There are four predefined users:
+
 1). UserName: alice 
 --- Password: password1
+
 2). UserName: bob 
 --- Password: password2
+
 3). UserName: charlie 
 --- Password: password3
+
 4). UserName: dan 
 --- Password: password4
+
+# Modification in server.js: 
+
+Need to add "app.use(bodyParser.urlencoded({ extended: true }));" in line no 24.
 
 # Application introduction
 
@@ -42,10 +57,13 @@ On clicking Logout, the application logs out the User.
 # Questions
 
 What URL should be used to access your application?
+
 http://localhost:8888/demo
 
 What libraries did you use to write your application?
+
 jquery v.3.0.0 
+
 bootstrap v.3.3.6
 
 What influenced the design of your user interface?
